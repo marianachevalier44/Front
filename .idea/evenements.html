@@ -5,78 +5,85 @@
     <meta name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Événements</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Rye&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="style.css">
+
+    <title>Brizh</title>
 </head>
+    <body>
 
-<body>
-    <div class="topnav">
-        <a class="active" href="#Événements">Événements</a>
-        <a href="films.html">Films</a>
-        <a href="villages.html">Villages</a>
+        <div class="container-all">
+            <div class="container-nav">
+                <nav>
+                    <ul>
+                        <li>
+                            <a href="evenements.html">Événements</a>
+                        </li>
+                        <li>
+                            <a href="films.html">Films</a>
+                        </li>
+                        <li>
+                            <a href="villages.html">Villages</a>
+                        </li>
+                    </ul>
 
-    </div>
+                </nav>
+                    <div class="header">
+                        <h1>Breizh Vidéo</h1>
+                     </div>
+                <div class="clearfix"></div>
 
-            <fieldset>
-                <div class="menu"></div>
-                    <legend>Passage à Rennes le 23/01/2021</legend>
-                        <form method="post" action="index.html">
-                            <table>
-                                <tr>
-                                    <td><input type="checkbox"></td>
-                                    <td><label>Film 1</label></td>
-                                </tr>
-                                <tr>
-                                    <td><input type="checkbox"></td>
-                                    <td><label>Film 2</label></td>
-                                </tr>
-                                <tr>
-                                    <td><input type="checkbox"></td>
-                                    <td><label>Film 3</label></td>
-                                </tr>
-                                <tr>
-                                    <td><input type="checkbox"></td>
-                                    <td><label>Film 4</label></td>
-                                </tr>
-                                <tr>
-                                    <td><input type="checkbox"></td>
-                                    <td><label>Film 5</label></td>
-                                </tr>
-                            </table>
-                            <button>Valider</button>
-                        </form>
-            </fieldset>
+                            <div class="titre"><h3>Événements</h3></div>
+                        <div class="content">
 
-            <fieldset>
-                <div class="menu"></div>
-                <legend>Passage à Nantes le 18/05/2021</legend>
-                <form method="post" action="index.html">
-                    <table>
-                        <tr>
-                            <td><input type="checkbox"></td>
-                            <td><label>Film 1</label></td>
-                        </tr>
-                        <tr>
-                            <td><input type="checkbox"></td>
-                            <td><label>Film 2</label></td>
-                        </tr>
-                        <tr>
-                            <td><input type="checkbox"></td>
-                            <td><label>Film 3</label></td>
-                        </tr>
-                        <tr>
-                            <td><input type="checkbox"></td>
-                            <td><label>Film 4</label></td>
-                        </tr>
-                        <tr>
-                            <td><input type="checkbox"></td>
-                            <td><label>Film 5</label></td>
-                        </tr>
+                            <div class="content-Nantes">
 
-                    </table>
-                    <button>Valider</button>
-                </form>
-            </fieldset>
+                                <h2>Passage à Rennes le 23/01/2021</h2>
 
+                                <form action="evenements.html">
+                                    <input type="checkbox" id="film1" name="film1" value="film1">
+                                    <label for="film1"> Film 1</label><br>
+                                    <input type="checkbox" id="film2" name="film2" value="film2">
+                                    <label for="film2"> Film 2</label><br>
+                                    <input type="checkbox" id="film3" name="film3" value="film3">
+                                    <label for="film3"> Film 3</label><br>
+                                    <input type="checkbox" id="film4" name="film4" value="film4">
+                                    <label for="film4"> Film 4</label><br>
+                                    <input type="submit" value="Valider">
+                                </form>
 
-</body>
+                            </div>
+
+                            <div class="plus">
+                                <a href="ajouterEvenement.html" class="fas fa-plus">
+                                    <span class="label"></span></a>
+                            </div>
+
+                                <div class="content-Rennes">
+                                    <h2>Passage à Nantes le 18/05/2021</h2>
+                                    <form action="evenements.html">
+                                        <input type="checkbox" id="film1" name="film1" value="film1">
+                                        <label for="film1"> Film 1</label><br>
+                                        <input type="checkbox" id="film2" name="film2" value="film2">
+                                        <label for="film2"> Film 2</label><br>
+                                        <input type="checkbox" id="film3" name="film3" value="film3">
+                                        <label for="film3"> Film 3</label><br>
+                                        <input type="checkbox" id="film4" name="film4" value="film4">
+                                        <label for="film4"> Film 4</label><br>
+                                        <input type="submit" value="Valider">
+                                    </form>
+                                </div>
+
+                         </div>
+
+                <footer>
+                    Brizh Vidéo © 2020
+                </footer>
+            </div>
+        </div>
+    </body>
+
 </html>

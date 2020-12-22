@@ -1,0 +1,235 @@
+*{
+    font-family: 'Rye', cursive;
+    margin: 0px;
+
+}
+
+nav {
+    position: relative;
+    left: 0px;
+    height: 40px;
+    background-color: #388087;
+    width: 100%;
+
+
+}
+nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-align: center;
+}
+nav ul li {
+    margin: 0;
+    padding: 0;
+    display: inline-block;
+}
+nav ul li a {
+    text-decoration: none;
+    padding: 10px 20px;
+    display: block;
+    color: #FFF;
+    text-align: center;
+}
+
+.header {
+    background-image: url("bessie-5a.jpg");
+}
+.header-film{
+    background-image: url("bessie-6a.jpg");
+}
+.header-village{
+    background-image: url("bessie-8a.jpg") ;
+}
+
+.header-city{
+    background-image: url("bessie-7a.jpg");
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.header-event{
+    background-image: url("bessie-1.jpg");
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.header, .header-film, .header-village, .header-city , .header-event{
+    width: 100%;
+    height: 1200px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    color: white;
+    font-size: 100px;
+
+}
+
+/*ajouter-ville.html*/
+.ville-ajouter{
+    background: #BADFE7;
+    height: 90px;
+    padding-top: 10px;
+
+}
+.container-ville{
+    background:  #F6F6F2;
+    font-size: 24px;
+    height: 400px;
+    width: 600px;
+    color: black;
+    box-shadow: 3px 5px 2px 1px #403C3C;
+
+}
+
+.nom-code{
+    background-color: #F6F6F2;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 200px;
+    padding: 15px;
+
+}
+
+/*evenement.html*/
+
+.titre{
+    text-align: center;
+    font-size: 70px;
+    color: #F6F6F2;
+    background-color: black;
+    line-height: 120px;
+}
+.content {
+    background-color: #388087;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 800px;
+}
+.plus, .plus-ville{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    border-radius: 25px;
+    height: 45px;
+    width: 45px;
+    border: solid  #BB86FC;
+
+}
+.content-Rennes, .content-Nantes {
+    border: none;
+    padding: 10px;
+    text-align: center;
+    background-color: #F6F6F2;
+    margin: 10px;
+    line-height: 80px;
+    height: 500px;
+    width: 30%;
+    box-shadow: 3px 5px 2px 1px #403C3C;
+
+}
+
+
+/*films.html*/
+.content-film{
+    background: linear-gradient(#388087, #CAB0E0);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: auto;
+    height: 800px;
+
+}
+.choix-film {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: space-around;
+    line-height: 100px;
+    background-color: #F6F6F2;
+    width: 500px;
+    height: 400px;
+    padding: 10px;
+    box-shadow: 3px 5px 2px 1px #403C3C;
+    font-size: 40px;
+}
+/*villages.html*/
+
+table, th, td {
+    border-collapse: collapse;
+    height: 100px;
+    width: 800px;
+}
+th, td {
+    padding: 15px;
+    text-align: center;
+}
+.content-table tr:nth-child(even) {
+    background-color: #F6F6F2;
+}
+.content-table tr:nth-child(odd) {
+    background-color: #F6F6F2;
+}
+.content-table th {
+    background-color: #BADFE7;
+    color: black;
+}
+/*ajouterevenment.html*/
+
+.event-ajouter {
+    background: #BADFE7;
+    height: 90px;
+    width: 600px;
+    padding-top: 10px;
+    line-height: 80px;
+}
+
+.container-event{
+    background:  #F6F6F2;
+    font-size: 24px;
+    height: 400px;
+    width: 600px;
+    color: black;
+    box-shadow: 3px 5px 2px 1px #403C3C;
+    line-height: 80px;
+
+    display: flex;
+    flex-wrap: wrap;
+    height: 600px;
+    align-content: space-between;
+
+    /*display: flex;
+    justify-content: space-around;
+    align-content: stretch;
+    align-items: baseline;*/
+}
+.data{
+    background-color: #F6F6F2;
+    padding: 15px;
+    overflow: none;
+
+
+
+}
+.clearfix {
+    clear: both;
+}
+
+button, input[type="submit"]{
+    color: black;
+    background-color: #BB86FC;
+    border: none;
+    height: 30px;
+    width: 100px;
+}
+
+footer {
+    text-align: center;
+    background-color: #BADFE7;
+    color: black;
+    height: 50px;
+    line-height: 50px;
+}
